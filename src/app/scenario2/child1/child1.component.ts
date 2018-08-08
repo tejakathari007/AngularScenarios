@@ -14,6 +14,4 @@ export class Child1Component{
 
 }
 
-  
-
 }
