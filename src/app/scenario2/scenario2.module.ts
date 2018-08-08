@@ -4,11 +4,9 @@ import { Child1Component } from './child1/child1.component';
 
 @NgModule({
   imports: [
-    CommonModule,
+    CommonModule
   ],
   declarations: [Child1Component],
   exports:[Child1Component]
 })
-export class Scenario1Module {
-  
- }
+export class Scenario2Module { }

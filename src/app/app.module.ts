@@ -1,3 +1,4 @@
+import { Scenario2Module } from './scenario2/scenario2.module';
 import { Child1Component } from './scenario1/child1/child1.component';
 import { Scenario1Module } from './scenario1/scenario1.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,7 +12,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    Scenario1Module
+    Scenario1Module,
+    Scenario2Module
 
   ],
   providers: [],
