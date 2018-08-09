@@ -9,6 +9,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { Scenario3Module } from './scenario3/scenario3.module';
 import { Parent1Component } from './scenario3/parent1/parent1.component';
+import { Scenario5Module } from './scenario5/scenario5.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Parent1Component } from './scenario3/parent1/parent1.component';
     Scenario1Module,
     Scenario2Module,
     Scenario3Module,
-    Scenario4Module
+    Scenario4Module,
+    Scenario5Module
   ],
   providers: [],
   bootstrap: [AppComponent]
