@@ -1,3 +1,4 @@
+import { Scenario4Module } from './scenario4/scenario4.module';
 
 import { Scenario2Module } from './scenario2/scenario2.module';
 import { Child1Component } from './scenario1/child1/child1.component';
@@ -17,10 +18,10 @@ import { Parent1Component } from './scenario3/parent1/parent1.component';
     BrowserModule,
     Scenario1Module,
     Scenario2Module,
-    Scenario3Module
-
+    Scenario3Module,
+    Scenario4Module
   ],
-  providers: [Parent1Component],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
